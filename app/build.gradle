@@ -43,7 +43,9 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile "com.android.support:design:${appCompatVersion}"
     compile "com.android.support:appcompat-v7:${appCompatVersion}"
+
     compile "com.google.firebase:firebase-core:${firebaseVersion}"
+    compile "com.google.firebase:firebase-database:${firebaseVersion}"
 
     // Displaying images
     compile "com.github.bumptech.glide:glide:${glideVersion}"
