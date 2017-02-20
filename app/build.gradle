@@ -11,6 +11,7 @@ repositories {
 ext {
     appCompatVersion = "25.1.1"
     firebaseVersion = "9.6.1"
+    firebaseUIVersion = "0.6.1"
     glideVersion = "3.6.1"
 }
 
@@ -46,6 +47,8 @@ dependencies {
 
     compile "com.google.firebase:firebase-core:${firebaseVersion}"
     compile "com.google.firebase:firebase-database:${firebaseVersion}"
+    compile "com.google.firebase:firebase-auth:${firebaseVersion}"
+    compile "com.firebaseui:firebase-ui-auth:${firebaseUIVersion}"
 
     // Displaying images
     compile "com.github.bumptech.glide:glide:${glideVersion}"
