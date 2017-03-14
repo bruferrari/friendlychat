@@ -49,6 +49,9 @@ dependencies {
     compile "com.google.firebase:firebase-database:${firebaseVersion}"
     compile "com.google.firebase:firebase-auth:${firebaseVersion}"
     compile "com.google.firebase:firebase-storage:${firebaseVersion}"
+    compile "com.google.firebase:firebase-messaging:${firebaseVersion}"
+    compile "com.google.firebase:firebase-config:${firebaseVersion}"
+
     compile "com.firebaseui:firebase-ui-auth:${firebaseUIVersion}"
 
     // Displaying images
