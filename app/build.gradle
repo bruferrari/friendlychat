@@ -9,15 +9,15 @@ repositories {
 }
 
 ext {
-    appCompatVersion = "25.1.1"
+    appCompatVersion = "25.2.0"
     firebaseVersion = "9.6.1"
     firebaseUIVersion = "0.6.1"
     glideVersion = "3.6.1"
 }
 
 android {
-    compileSdkVersion 24
-    buildToolsVersion "24.0.3"
+    compileSdkVersion 25
+    buildToolsVersion '25.0.2'
 
     defaultConfig {
         applicationId "com.google.firebase.udacity.friendlychat"
@@ -48,6 +48,7 @@ dependencies {
     compile "com.google.firebase:firebase-core:${firebaseVersion}"
     compile "com.google.firebase:firebase-database:${firebaseVersion}"
     compile "com.google.firebase:firebase-auth:${firebaseVersion}"
+    compile "com.google.firebase:firebase-storage:${firebaseVersion}"
     compile "com.firebaseui:firebase-ui-auth:${firebaseUIVersion}"
 
     // Displaying images
